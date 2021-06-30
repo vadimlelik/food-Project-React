@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -9,11 +9,7 @@ function Header() {
         </Link>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>
-            <a
-              href="https://github.com/vadimlelik/food-project"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://github.com/vadimlelik/food-project" target="_blank" rel="noreferrer">
               Repo
             </a>
           </li>
