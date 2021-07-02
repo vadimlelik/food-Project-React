@@ -3,7 +3,6 @@ import { useHistory, useParams } from 'react-router-dom';
 export default function Movie() {
   const { title } = useParams();
   const { goBack } = useHistory();
-  // console.log(value);
   return (
     <>
       {' '}
